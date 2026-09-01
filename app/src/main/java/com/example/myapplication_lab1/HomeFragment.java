@@ -36,27 +36,21 @@ public class HomeFragment extends Fragment {
 
         homeContainer = view.findViewById(R.id.homeContainer);
 
-        showLoading();
+        boolean simulateError = false;
+        boolean simulateEmpty = false;
 
-        new Handler().postDelayed(() -> {
+        if (simulateError) {
+            showError();
 
-            boolean simulateError = false;
-            boolean simulateEmpty = false;
+        } else if (simulateEmpty) {
+            showEmpty();
 
-            if (simulateError) {
-                showError();
+        } else if (isOffline()) {
+            showOffline();
 
-            } else if (simulateEmpty) {
-                showEmpty();
-
-            } else if (isOffline()) {
-                showOffline();
-
-            } else {
-                showHome();
-            }
-
-        }, 1500);
+        } else {
+            showHome();
+        }
 
         return view;
     }
