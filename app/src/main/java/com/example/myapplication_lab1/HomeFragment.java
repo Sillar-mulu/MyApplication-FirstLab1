@@ -191,6 +191,17 @@ public class HomeFragment extends Fragment {
         timetableButton.setText(
                 "View Timetable"
         );
+        timetableButton.setTextColor(
+                android.graphics.Color.WHITE
+        );
+
+        timetableButton.setBackgroundTintList(
+                android.content.res.ColorStateList.valueOf(
+                        android.graphics.Color.parseColor("#1565C0")
+                )
+        );
+
+        timetableButton.setMinHeight(48);
 
         timetableButton.setOnClickListener(v -> {
 
@@ -212,6 +223,17 @@ public class HomeFragment extends Fragment {
         noticesButton.setText(
                 "View Notices"
         );
+        noticesButton.setTextColor(
+                android.graphics.Color.WHITE
+        );
+
+        noticesButton.setBackgroundTintList(
+                android.content.res.ColorStateList.valueOf(
+                        android.graphics.Color.parseColor("#1565C0")
+                )
+        );
+
+        noticesButton.setMinHeight(48);
 
         noticesButton.setOnClickListener(v -> {
 

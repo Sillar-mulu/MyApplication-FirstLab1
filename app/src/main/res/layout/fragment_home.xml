@@ -106,16 +106,20 @@
             android:id="@+id/btnViewTimetable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:text="View Timetable"
-            android:minHeight="48dp" />
+            android:textColor="@android:color/white"
+            android:backgroundTint="#1565C0" />
 
         <Button
             android:id="@+id/btnViewNotices"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="View Notices"
             android:minHeight="48dp"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            android:text="View Notices"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#1565C0" />
 
     </LinearLayout>
 
