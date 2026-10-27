@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:stretchColumns="*">
+
+        <TableRow android:background="#1565C0">
+            <TextView
+                android:text="Day"
+                android:textColor="#FFFFFF"
+                android:padding="8dp" />
+            <TextView
+                android:text="Time"
+                android:textColor="#FFFFFF"
+                android:padding="8dp" />
+            <TextView
+                android:text="Subject"
+                android:textColor="#FFFFFF"
+                android:padding="8dp" />
+            <TextView
+                android:text="Room"
+                android:textColor="#FFFFFF"
+                android:padding="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Monday" android:padding="8dp" />
+            <TextView android:text="08:00-10:00" android:padding="8dp" />
+            <TextView android:text="ICT" android:padding="8dp" />
+            <TextView android:text="Lab 1" android:padding="8dp" />
+        </TableRow>
+
+        <TableRow android:background="#E3F2FD">
+            <TextView android:text="Tuesday" android:padding="8dp" />
+            <TextView android:text="10:00-12:00" android:padding="8dp" />
+            <TextView android:text="Mathematics" android:padding="8dp" />
+            <TextView android:text="Room 2" android:padding="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Wednesday" android:padding="8dp" />
+            <TextView android:text="09:00-11:00" android:padding="8dp" />
+            <TextView android:text="Software Engineering" android:padding="8dp" />
+            <TextView android:text="Lab 2" android:padding="8dp" />
+        </TableRow>
+
+        <TableRow android:background="#E3F2FD">
+            <TextView android:text="Thursday" android:padding="8dp" />
+            <TextView android:text="11:00-13:00" android:padding="8dp" />
+            <TextView android:text="Database Systems" android:padding="8dp" />
+            <TextView android:text="Lab 1" android:padding="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Friday" android:padding="8dp" />
+            <TextView android:text="08:00-10:00" android:padding="8dp" />
+            <TextView android:text="Mobile App Development" android:padding="8dp" />
+            <TextView android:text="Lab 3" android:padding="8dp" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
